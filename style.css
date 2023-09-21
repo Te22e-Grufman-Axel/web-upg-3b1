@@ -1,0 +1,38 @@
+#top{
+    min-height: 80px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h1
+{
+    background-color: aqua;
+    border: 2px solid black;
+}
+#center
+{
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#centerleft
+{
+background-color: yellow;
+min-width: 49%;
+border: 2px solid black;
+}
+#centerright
+{
+background-color:pink ;
+min-width: 49%;
+border: 2px solid black;
+}
+#bottom
+{
+    border: 2px solid yellow;
+    padding: 5px;
+}
